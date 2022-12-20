@@ -1,12 +1,13 @@
 // ==UserScript==
 // @name        1337x - torrent and magnet links
 // @namespace   darkred
-// @version     2021.8.17
+// @version     2022.12.20
 // @description Adds a column with torrent and magnet links in lists
 // @author      darkred
 // @contributor NotNeo, barn852
 // @license     MIT
-// @include     /^https:\/\/(www\.)?1337x\.(to|st|ws|eu|se|is|gd|unblocked\.dk)((?!\/torrent)).*$/
+// @match        https://*.*1337x.*
+// @match        https://*.*/1337x-proxy/
 // @grant       GM_addStyle
 // @run-at      document-idle
 //
